@@ -1,0 +1,381 @@
+service:
+  name: with-datadog-many
+#app: your-app-name
+#tenant: your-tenant-name
+
+# Add the serverless-webpack plugin
+plugins:
+  - serverless-plugin-datadog
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  hello0:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello1:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello2:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello3:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello4:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello5:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello6:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello7:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello8:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello9:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello10:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello11:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello12:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello13:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello14:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello15:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello16:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello17:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello18:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello19:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello20:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello21:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello22:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello23:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello24:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello25:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello26:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello27:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello28:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello29:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello30:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello31:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello32:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello33:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello34:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello35:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello36:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello37:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello38:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello39:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello40:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello41:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello42:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello43:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello44:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello45:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello46:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello47:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello48:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello49:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello50:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello51:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello52:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello53:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello54:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello55:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello56:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello57:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello58:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+  hello59:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+
+custom:
+  webpack:
+    includeModules:
+      forceExclude:
+        - aws-sdk
